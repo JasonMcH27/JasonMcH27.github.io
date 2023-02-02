@@ -1,0 +1,79 @@
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Jason McHenry Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section-title section-title-intro">
+             <strong>Dynamic Lands</strong>
+        </h1>
+        <p class="section-subtitle section-subtitle-intro"><a href="files/Dynamic Lands.zip" download="">Download Dynamic Lands</a></p>
+        <img src="images/dynamiclands.jpg" alt="me" class="intro-img">
+    </section>
+
+    <section class="my-portfolio" id="portfolio">
+        <h2 class="section-title section-title-about"><strong>Features</strong></h2>
+        <div class="portfolio">
+            <h2 class="section-subtitle section-subtitle-portfolio"><strong>Random World Generation</strong></h2>
+            <p>The main aspect of Dynamic Lands is the Random World generation. As you progress through the game, the environment around you is constantly evolving. There are four unique biomes that can be generated with specific presets made, these being Plains, Ice, Valley, and Void. When you start off only the easier biomes will spawn in, but as you get to higher rounds more difficult biomes will start generating.</p>
+                <img src="images/dynamic-lands-images/early-game.png" alt="" class="portfolio-img">
+            <p></p>
+                <img src="images/dynamic-lands-images/late-game.png" alt="" class="portfolio-img">
+            <p></p>
+        </div>
+        <div class="portfolio">
+            <h2 class="section-subtitle section-subtitle-portfolio"><strong>Enemies</strong></h2>
+            <p>Each biome has a unique enemy type attached to it. As you progress through higher rounds, different variations of enemies will spawn that are stronger than their base version and drop unique buffs. In order to help the player know what that is and how strong the enemy type is we created a colored scale to help the player understand the power level of these enemy variations.</p>
+                <img src="images/dynamic-lands-images/enemy.png" alt="" class="portfolio-img">
+            <p></p>
+                <img src="images/dynamic-lands-images/colored scale.png" alt="" class="portfolio-img">
+            <p></p>
+        </div>
+        <div class="portfolio">
+            <h2 class="section-subtitle section-subtitle-portfolio"><strong>Buffs</strong></h2>
+            <p>After defeating enemies there is a chance that a random buff can drop. These buffs change the base stats of the player and also add unique traits as well. Some of these buffs include an increase to HP, adding Lifesteal, and doing damage over time.</p>
+                <img src="images/dynamic-lands-images/buffs.png" alt="" class="portfolio-img">
+            <p></p>
+        </div>
+        <div class="portfolio">
+            <h2 class="section-subtitle section-subtitle-portfolio"><strong>Monolith</strong></h2>
+            <p>In order to make all main systems, this being enemy spawners, world generation, and round system work properly the Monolith was created. To start each round the player interacts with the Monolith. The Monolith then is able to generate the biomes based on the current round, and make each spawner correctly spawn in the appropriate enemy for the biome.</p>
+                <img src="images/dynamic-lands-images/monolith.png" alt="" class="portfolio-img">
+            <p></p>
+                <img src="images/dynamic-lands-images/monolith-ig.png" alt="" class="portfolio-img">
+            <p></p>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <p>Contact me at <a href="mailto:jasonmchenry27@gmail.com" class="footer-link">
+            jasonmchenry27@gmail.com
+        </a></p>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
